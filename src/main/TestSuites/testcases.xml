@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FIlename" verbose="1">
+	
+	<test name="filename-1">
+		<parameter name="filepath" value="C:\Users\Sanjivani\Desktop\demo.txt"></parameter>
+		<classes>
+			<class name="fileuploadcode.FileSelectCode" />
+		</classes>
+	</test>
+</suite>
+
